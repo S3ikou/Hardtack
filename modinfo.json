@@ -1,0 +1,9 @@
+﻿{
+    "type": "content",
+    "modid": "hardtack",
+    "name": "Sailor's Biscuits",
+    "description": "Adds craftable sailor's biscuits for long sea voyages",
+    "authors": ["S3ikou"],
+    "version": "1.0.0",
+    "dependencies": { "game": ""}
+}

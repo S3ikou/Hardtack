@@ -1,0 +1,74 @@
+﻿[
+  {
+    ingredientPattern: "_W_,FFF",
+    ingredients: {
+      "W": {
+        type: "block",
+        code: "game:woodbucket"
+      },
+      "F": {
+        type: "item",
+        code: "game:flour-*",
+        allowedVariants: ["flax", "millet", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower"],
+        name: "type"
+      }
+    },
+    width: 3,
+    height: 2,
+    attributes: {
+      liquidContainerProps: {
+        requiresContent: { type: "item", code: "waterportion" },
+        requiresQuantity: 1
+      }
+    },
+    output: { type: "item", code: "hardtackdough-{type}"  }
+  },
+  {
+    ingredientPattern: "_W_,FFF",
+    ingredients: {
+      "W": {
+        type: "block",
+        code: "game:bowl-*-fired"
+      },
+      "F": {
+        type: "item",
+        code: "game:flour-*",
+        allowedVariants: ["flax", "millet", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower"],
+        name: "type"
+      }
+    },
+    width: 3,
+    height: 2,
+    attributes: {
+      liquidContainerProps: {
+        requiresContent: { type: "item", code: "waterportion" },
+        requiresQuantity: 1
+      }
+    },
+    output: { type: "item", code: "hardtackdough-{type}"  }
+  },
+  {
+    ingredientPattern: "_W_,FFF",
+    ingredients: {
+      "W": {
+        type: "block",
+        code: "game:jug-*-fired"
+      },
+      "F": {
+        type: "item",
+        code: "game:flour-*",
+        allowedVariants: ["flax", "millet", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower"],
+        name: "type"
+      }
+    },
+    width: 3,
+    height: 2,
+    attributes: {
+      liquidContainerProps: {
+        requiresContent: { type: "item", code: "waterportion" },
+        requiresQuantity: 1
+      }
+    },
+    output: { type: "item", code: "hardtackdough-{type}"  }
+  }
+]

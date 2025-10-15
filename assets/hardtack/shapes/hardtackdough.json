@@ -1,0 +1,27 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Cube2",
+			"from": [ 6.5, 0.0, 6.5 ],
+			"to": [ 9.5, 0.5, 9.5 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#hardtackdough", "uv": [ 9.5, 13.5, 12.5, 14.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#hardtackdough", "uv": [ 7.5, 12.5, 10.5, 13.0 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#hardtackdough", "uv": [ 2.0, 15.0, 5.0, 15.5 ], "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#hardtackdough", "uv": [ 2.5, 15.0, 5.5, 15.5 ], "rotation": 180, "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#hardtackdough", "uv": [ 1.0, 10.5, 4.0, 13.5 ] },
+				"down": { "texture": "#hardtackdough", "uv": [ 10.5, 2.5, 13.5, 5.5 ] }
+			}
+		}
+	]}
